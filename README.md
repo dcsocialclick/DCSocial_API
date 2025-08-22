@@ -18,7 +18,7 @@ The project explores:
 ## Getting Started
 ```bash
 # Clone repository
-git clone https://github.com/your-org/dcsocial.git
+git clone https://github.com/dcsocialclick/DCSocial_API.git
 cd dcsocial
 
 # Install dependencies (frontend/backend separately)
