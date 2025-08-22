@@ -2,6 +2,11 @@
 
 # DCSocial
 
+http://dcsocial.click/
+https://x.com/dcsocialclick
+https://app.daily.dev/dcsocial/posts
+https://discord.gg/rpDPQmM6
+
 DCSocial is an experimental decentralized social dApp, built as a sandbox to test concepts for the **Decentralized Credit Protocol (DCP)**.  
 
 The project explores:
