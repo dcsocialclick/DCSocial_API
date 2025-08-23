@@ -10,69 +10,177 @@ https://x.com/dcsocialclick
 https://app.daily.dev/dcsocial/posts
 - Discord:
 https://discord.gg/rpDPQmM6
+- Medium:
+https://medium.com/@dcsocial.click
 
-DCSocial is an experimental decentralized social dApp, built as a sandbox to test concepts for the **Decentralized Credit Protocol (DCP)**.  
+DCSocial – Decentralized Creator Social Platform
 
-The project explores:
-- **Frontend**: modern web client for user interactions.  
-- **Backend**: API and service layer for data, auth, and logic.  
-- **Integration**: testing flows for credit, trust, and ethical interaction models.  
+DCSocial is a next-generation social networking dApp designed for creators, leaders, and their communities.
+It enables a decentralized attention economy, where influence and engagement are measurable, tradeable, and directly beneficial to those who generate value.
 
-## Project Structure
-/frontend # Next.js / React-based client
-/backend # Node.js / Express / TypeScript server
-/docs # Technical notes and design drafts
+Our mission: Own your audience. Save your audience. Build with them.
 
+🚀 Vision
 
-## Getting Started
-```bash
-# Clone repository
-git clone https://github.com/dcsocialclick/DCSocial_API.git
-cd dcsocial
+Traditional platforms monetize creators’ audiences without transparency or shared benefits.
+DCSocial flips this model by giving creators and communities the ability to:
 
-# Install dependencies (frontend/backend separately)
-cd frontend && npm install
-cd backend && npm install
+Own their audience: direct, verifiable connections with no intermediaries.
 
-Roadmap
+Protect their audience: safeguard against spam, low-quality feeds, and algorithmic manipulation.
 
- MVP user flows
+Build sustainable growth: leverage decentralized scoring and referral mechanics to grow influence and monetize attention ethically.
 
- Backend API endpoints
+🔑 Key Features
 
- Credit / trust experiments
+Decentralized Feed Scoring (DFS)
+A transparent algorithm that ranks posts using:
 
- Integration with future DCP SDK
+Referral weight (direct connections prioritized).
 
-License
+Engagement metrics (views, likes, shares, comments).
 
-DCSocial is released under the Apache 2.0
+Ethical credit score (trustworthiness & positive contributions).
 
-DCSocial is part of the broader vision of DCP – Decentralized Credit Protocol.
+Time decay (freshness of content).
 
----
+Referral-Based Growth Engine
+Creators invite their audience through unique referral links. Audiences who join are directly connected to their referrer, creating multi-level, non-exploitative referral networks.
 
-### LICENSE (MIT License mẫu)  
-```text
-MIT License
+Gamified Reputation System
 
-Copyright (c) 2025 DCP Project Contributors
+Badges (Founder, Rescued, Top Influencer).
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights  
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
-copies of the Software, and to permit persons to whom the Software is  
-furnished to do so, subject to the following conditions:  
+Missions for community growth.
 
-The above copyright notice and this permission notice shall be included in all  
-copies or substantial portions of the Software.  
+Credit staking to boost content visibility.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
-SOFTWARE.
+Community-First Communication
+
+Group chats with threat-mode protection: max 20 messages/minute, high-score messages prioritized.
+
+Signal-to-noise optimization for meaningful conversations.
+
+Impact Dashboard for Leaders
+
+Track F1/F2/F3 referral growth.
+
+Average audience credit score.
+
+Post performance analytics.
+
+Referral chain visualization.
+
+🏗 System Architecture
+
+Frontend: Next.js + Telegram WebApp integration, PWA for mobile install.
+
+Backend: Modular API with pluggable scoring algorithms.
+
+Database: Flexible (Firebase or MongoDB for MVP, scalable to decentralized storage in production).
+
+Config Layer: Unified config for FE/BE to ensure consistent scoring and logic.
+
+📊 FeedScore Formula
+
+FeedScore = ReferralLevelWeight + EngagementScore + CreditScore - TimeDecay
+
+ReferralLevelWeight: F1 = 100, F2 = 50, F3 = 20
+
+EngagementScore: actions in first 24h (views, likes, comments, shares)
+
+CreditScore: decentralized ethical credit system
+
+TimeDecay: decreasing weight over time
+
+Balancing:
+
+70–80% feed from referral chain
+
+20–30% from outside exposure
+
+High-credit posts can bypass referral order
+
+Experimental boosted posts tested dynamically
+
+🧩 Roadmap
+
+MVP (Centralized backend + Telegram integration)
+
+Secure onboarding via referral links
+
+Feed + explore tabs with scoring
+
+Group chats with threat-mode filtering
+
+Leader dashboard
+
+Phase 2 (Hybrid decentralized)
+
+Smart contract integration for CreditScore
+
+On-chain verification of referrals
+
+Tokenized incentives for creators and audiences
+
+Phase 3 (Full decentralization)
+
+Decentralized hosting & storage
+
+On-chain governance for algorithm updates
+
+Autonomous credit marketplace
+
+👥 Target Users
+
+Leaders / Content Creators / KOLs
+
+Grow their audience through verifiable referrals
+
+Monetize attention with fairness and transparency
+
+Strengthen reputation through credit scoring
+
+Audience Members
+
+Join communities via trusted leaders
+
+Earn recognition badges (e.g., Rescued by [Leader])
+
+Improve personal feed quality by inviting new members
+
+Explorers
+
+Discover leaders and content outside direct referrals
+
+Become new leaders by building their own audience
+
+🛡 Security & Anti-Abuse
+
+API protected with admin keys and rate limits
+
+Anti-fraud mechanisms against fake likes, views, and shares
+
+Cooldowns on high-frequency actions
+
+Validation rules for unique likes, shares, and referral integrity
+
+💡 Why DCSocial?
+
+Unlike legacy platforms, DCSocial aligns incentives between platform, creators, and communities.
+No exploitation, no shadow algorithms – just transparent growth, shared value, and sustainable impact.
+
+DCSocial is where attention meets ownership.
+
+📬 Get Involved
+
+Developers: Contribute to open-source modules.
+
+Creators: Onboard early and secure Founder badges.
+
+Community Members: Join, engage, and shape the ecosystem.
+
+📄 License
+
+MIT License – build, fork, and contribute freely.
 
