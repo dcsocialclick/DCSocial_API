@@ -1,4 +1,4 @@
-# DCSocial_API
+<img width="65" height="21" alt="image" src="https://github.com/user-attachments/assets/eaf9fd87-908d-4889-b638-a69883d15ff3" /># DCSocial_API
 
 # DCSocial
 
@@ -9,7 +9,7 @@ https://x.com/dcsocialclick
 - For Dev:
 https://app.daily.dev/dcsocial/posts
 - Discord:
-https://discord.gg/rpDPQmM6
+https://discord.gg/7BHBCR2MrS
 - Medium:
 https://medium.com/@dcsocial.click
 
