@@ -642,7 +642,7 @@ This project stands on the shoulders of giants:
 **API**: https://api.dcsocial.click  
 **Email**: contact@dcsocial.click  
 **GitHub**: https://github.com/dcsocialclick  
-**Twitter/X**: [@dcsocial](https://twitter.com/dcsocial)
+**Twitter/X**: [@dcsocial](https://twitter.com/dcsocialclick)
 
 **For specific inquiries:**
 - Technical: dev@dcsocial.click
