@@ -3,6 +3,8 @@
 [![Website](https://img.shields.io/badge/website-dcsocial.click-blue)](https://dcsocial.click)
 [![Status](https://img.shields.io/badge/status-live-success)](https://api.dcsocial.click)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Test Discord bot API at https://discord.gg/7BHBCR2MrS
+Also can add bot to you channel https://www.dcsocial.click/docs/bot-integration/tutorials
 
 > **A peer-to-peer electronic credit system where trust replaces collateral, relationships replace banks, and mathematics replaces monetary policy.**
 
